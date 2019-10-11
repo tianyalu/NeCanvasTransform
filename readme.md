@@ -25,7 +25,7 @@
 示例如下：  
 ![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/scale1.png)
 ![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/scale2.png)
-#### 3、缩放操作
+#### 3、旋转操作
 若先平移后旋转，旋转中心点以平移后的坐标系为基准
 ```android
     canvas.translate(50, 50);
