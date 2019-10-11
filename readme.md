@@ -1,16 +1,16 @@
 ### NeCanvasTransform Canvas变换操作示例
 #### 一、平移操作
-平移后相当于画布不动，移动了整个参考坐标系
+平移后相当于坐标系不动，移动了整个画布
 ```android
     canvas.drawRect(0, 0, 400, 400, mPaint);
-    //平移后相当于画布不动，移动了整个参考坐标系 参考show/transform.png
+    //平移后相当于坐标系不动，移动了整个画布 参考show/transform.png
     canvas.translate(50, 50);
     mPaint.setColor(Color.GRAY);
     canvas.drawRect(0, 0, 400, 400, mPaint);
     canvas.drawLine(0, 0, 600, 600, mPaint);
 ```
 示例如下：  
-![image](http://github.com/tianyalu/NeCanvasTransform/blob/master/show/transform.png)
+![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/transform.png)
 #### 二、缩放操作
 ```android
     canvas.drawRect(200, 200, 700, 700, mPaint);
@@ -22,8 +22,8 @@
     canvas.drawRect(200, 200, 700, 700, mPaint);
 ```
 示例如下：  
-![image](http://github.com/tianyalu/NeCanvasTransform/blob/master/show/scale1.png)
-![image](http://github.com/tianyalu/NeCanvasTransform/blob/master/show/scale2.png)
+![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/scale1.png)
+![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/scale2.png)
 #### 三、缩放操作
 若先平移后旋转，旋转中心点以平移后的坐标系为基准
 ```android
@@ -39,8 +39,8 @@
     canvas.drawRect(400, 400, 900, 900, mPaint);
 ```
 示例如下：  
-![image](http://github.com/tianyalu/NeCanvasTransform/blob/master/show/rotate1.png)
-![image](http://github.com/tianyalu/NeCanvasTransform/blob/master/show/rotate2.png)
+![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/rotate1.png)
+![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/rotate2.png)
 #### 四、倾斜操作
 ```android
    canvas.drawRect(0, 0, 400, 400, mPaint);
@@ -50,8 +50,8 @@
    canvas.drawRect(0, 0, 400, 400, mPaint);
 ```
 示例如下：  
-![image](http://github.com/tianyalu/NeCanvasTransform/blob/master/show/skew1.png)
-![image](http://github.com/tianyalu/NeCanvasTransform/blob/master/show/skew2.png)
+![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/skew1.png)
+![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/skew2.png)
 #### 五、切割操作
 ```android
     canvas.drawRect(200, 200, 700, 700, mPaint);
@@ -71,8 +71,8 @@
     canvas.drawCircle(300, 300, 100, mPaint); //坐标超出反向裁剪区域，无法绘制
 ```
 示例如下：  
-![image](http://github.com/tianyalu/NeCanvasTransform/blob/master/show/clip1.png)
-![image](http://github.com/tianyalu/NeCanvasTransform/blob/master/show/clip2.png)
+![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/clip1.png)
+![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/clip2.png)
 #### 六、矩阵操作
 ```android
    canvas.drawRect(0, 0, 700, 700, mPaint);
@@ -85,6 +85,6 @@
    canvas.drawRect(0, 0, 700, 700, mPaint);
 ```
 示例如下：  
-![image](http://github.com/tianyalu/NeCanvasTransform/blob/master/show/matrix_translate.png)
-![image](http://github.com/tianyalu/NeCanvasTransform/blob/master/show/matrix_rotate.png)
-![image](http://github.com/tianyalu/NeCanvasTransform/blob/master/show/matrix_scale.png)
+![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/matrix_translate.png)
+![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/matrix_rotate.png)
+![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/matrix_scale.png)
