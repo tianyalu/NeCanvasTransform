@@ -115,7 +115,7 @@
         Log.i("sty", "onDraw4: " + canvas.getSaveCount()); //1
         canvas.drawLine(0, 0, 400, 500, mPaint);
 ```
-示例如下：
+示例如下：  
 ![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/save_restore1.png)
 
 #### 2. canvas.saveLayer()
@@ -133,5 +133,5 @@
         mPaint.setColor(Color.RED);
         canvas.drawRect(0, 0, 100, 100, mPaint);
 ```
-示例如下：
+示例如下：  
 ![image](https://github.com/tianyalu/NeCanvasTransform/blob/master/show/save_restore2.png)
